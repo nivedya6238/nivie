@@ -1,0 +1,59 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  transition: 0.3s;
+}
+
+/* DARK MODE */
+.dark {
+  background: #121212;
+  color: white;
+}
+
+/* GLASS NAV */
+.glass {
+  backdrop-filter: blur(10px);
+  background: rgba(0,0,0,0.6);
+}
+
+/* HERO */
+.hero {
+  height: 100vh;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: white;
+}
+
+/* IMAGE */
+.profile-img {
+  width: 180px;
+  border-radius: 50%;
+  border: 4px solid white;
+}
+
+/* CARDS */
+.premium-card {
+  padding: 20px;
+  border-radius: 20px;
+  background: white;
+  transition: 0.3s;
+}
+
+.premium-card:hover {
+  transform: translateY(-10px);
+}
+
+/* ANIMATION */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: 1s;
+}
+
+.fade-in.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+}
